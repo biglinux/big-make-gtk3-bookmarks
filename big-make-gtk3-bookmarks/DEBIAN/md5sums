@@ -1,0 +1,6 @@
+f53bd4c5be6ef33ba1af2481553dfc12  DEBIAN/control
+d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
+d41d8cd98f00b204e9800998ecf8427e  DEBIAN/big-make-gtk3-bookmarks.pot
+d41d8cd98f00b204e9800998ecf8427e  DEBIAN/languages
+f8cc912483e0768c8b1a82e3f26ad1bc  usr/bin/make-gtk3-bookmarks
+6786d1473752fc152840aa265d41d72a  etc/xdg/autostart/make-gtk3-bookmarks.desktop

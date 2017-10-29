@@ -1,0 +1,9 @@
+#!/bin/sh
+
+
+mkdir -p "$HOME/.config/gtk-3.0"
+
+if [ ! -e "$HOME/.config/gtk-3.0/bookmarks" ]; then
+    grep "^XDG_" "$HOME/.config/user-dirs.dirs" | sed "s|.*=\"||g;s|.*\..*||g;s|\"$||g;s|\$HOME|file://$HOME|g;/^\s*$/d" | grep -v -e "Desktop" -e "de Trabalho" -e "blic" -e "Model" > "$HOME/.config/gtk-3.0/bookmarks"
+fi
+

@@ -1,0 +1,11 @@
+Package: big-make-gtk3-bookmarks
+Version: 1.0.0-1big5
+Depends:
+Architecture: all
+Maintainer: Bruno Goncalves <biglinux.com.br>
+Section: admin
+Priority: optional
+Installed-Size:44
+Description: Fiz to bookmarks in nemo file manager
+
+

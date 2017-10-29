@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=make-gtk3-bookmarks
+Exec=/usr/bin/make-gtk3-bookmarks
+
+Name[pt_BR]=make-gtk3-bookmarks.desktop
